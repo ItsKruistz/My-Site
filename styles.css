@@ -96,6 +96,10 @@ nav.s.bottom a span {
   }
 }
 
+.red {
+  background: var(--on-primary);
+}
+
 .appbar {
   min-height: 56px;
   position: fixed;
@@ -106,7 +110,7 @@ nav.s.bottom a span {
 }
 
 .appbar-title {
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.2px;
   font-weight: 500;
 }
