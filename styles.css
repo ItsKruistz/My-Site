@@ -9,6 +9,13 @@ body {
   font-family: system-ui, sans-serif;
 }
 
+nav.s.bottom a span {
+      font-weight: 500;
+      font-size: 12px;
+      padding: 1px 15px;
+     letter-spacing: 0.2px;
+    }
+
 :root {
   --primary: #785900;
   --on-primary: #ffffff;
@@ -108,11 +115,20 @@ body {
   font-size: 38px;
 }
 
+div.badge {
+  font-family: system-ui, sans-serif;
+  font-weight: 500;
+}
+
 .floating-button {
   position: fixed;
   bottom: 18px;
   right: 8px;
   z-index: 1;
+  cursor: pointer;
+}
+
+.clickable {
   cursor: pointer;
 }
 
