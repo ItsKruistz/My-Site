@@ -9,11 +9,11 @@ body {
   font-family: system-ui, sans-serif;
 }
 
-nav.s.bottom a span {
+nav.bottom a span {
       font-weight: 500;
       font-size: 12px;
-      padding: 1px 15px;
-     letter-spacing: 0.2px;
+      padding: 0px 15px;
+     letter-spacing: 0.1px;
     }
 
 :root {
@@ -96,21 +96,17 @@ nav.s.bottom a span {
   }
 }
 
-.red {
-  background: var(--on-primary);
-}
-
 .appbar {
   min-height: 56px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 1000;
 }
 
 .appbar-title {
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.2px;
   font-weight: 500;
 }
@@ -122,6 +118,10 @@ nav.s.bottom a span {
 div.badge {
   font-family: system-ui, sans-serif;
   font-weight: 500;
+}
+
+nav.bottom {
+  block-size: 4.4rem;
 }
 
 .floating-button {
