@@ -16,6 +16,10 @@ nav.bottom a span {
      letter-spacing: 0.1px;
     }
 
+.no-letter-spacing {
+  letter-spacing: 0.2px;
+}
+
 :root {
   --primary: #785900;
   --on-primary: #ffffff;
