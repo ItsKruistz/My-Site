@@ -106,7 +106,7 @@ nav.bottom a span {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 1;
 }
 
 .appbar-title {
@@ -138,6 +138,10 @@ nav.bottom {
 
 .clickable {
   cursor: pointer;
+}
+
+.navrail {
+  min-block-size: 1em;
 }
 
 svg, i {

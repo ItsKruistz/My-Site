@@ -16,17 +16,18 @@
         <i>home</i>
         <span>Home</span>
       </a>
-      <a>
+      <a class="s">
         <i>search</i>
         <span>Search</span>
       </a>
       <a>
-        <i>notifications</i>
-        <span>Notifications</span>
-      </a>
-      <a>
         <i>people</i>
         <span>Friends</span>
+        <div class="tooltip bottom">Tooltip</div>
+        </a>
+        <a>
+          <i>notifications</i>
+          <span>Notifications</span>
         </a>
       <a>
         <i>grid_view</i>
@@ -36,33 +37,40 @@
     <header class="appbar blur">
       <nav>
           <h6 class="appbar-title s l">quynhanhnee</h6>
-                      <div class="field textarea label prefix small fill min round small-round l">
-              <i>search</i>
-              <textarea></textarea>
-              <label>Look for something...</label>
-            </div>
           <div class="center m l">
-<a class="chip no-letter-spacing no-border">
+<a class="chip no-border">
   <i class="medium">home</i>
+  <div class="tooltip">I'm a tooltip</div>
 </a>
-<a class="chip no-letter-spacing no-border m">
+<a class="chip no-border m">
   <i class="medium">search</i>
 </a>
-<a class="chip no-letter-spacing no-border">
-  <i class="medium">notifications</i>
-</a>
-<a class="chip no-letter-spacing no-border">
+<a class="chip no-border">
   <i class="medium">people</i>
 </a>
-<a class="chip no-letter-spacing no-border">
+<a class="chip no-border" data-ui="#menu">
   <i class="medium">grid_view</i>
+  <menu id="mefu" class="right no-wrap">
+  <a>Item</a>
+  <a>Item</a>
+  <a>Item</a>
+</menu>
 </a>
 </div>
         <div class="max"></div>
-        <button class="circle small primary-container">
-          <i>add</i>
+        <div class="divider vertical m l round"></div>
+        <button class="circle small transparent m l">
+          <i>notifications</i>
         </button>
-        <button class="transparent circle small">
+        <button class="circle small primary-container no-elevate" data-ui="menu">
+          <i>add</i>
+            <menu id="menu" class="right no-wrap">
+    <a>It5em</a>
+    <a>Item</a>
+    <a>Item</a>
+  </menu>
+        </button>
+          <button class="transparent circle small">
           <img class="responsive circle" src="quynhanhnee.png">
         </button>
       </nav>
